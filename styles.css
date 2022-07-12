@@ -1,0 +1,53 @@
+
+    body{
+        background-color: #24292e;
+        background-image: url(https://desktop.github.com/images/star-bg.svg);
+        border-radius: 10px;
+        border-color:silver;
+    }
+    #name{
+        font-size:50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border-style:hidden;
+        color:aliceblue;
+        background-color:rgba(184, 178, 178, 0.116);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align:center;
+    }
+    #name:hover{
+        animation-name:waves;
+        text-shadow: 50px;
+        box-shadow: 5px;
+        color:white;
+        background: linear-gradient(35deg,#d5dddd65,#6d6a6a34,grey);
+        border-radius: 5px;
+    }
+    h2{
+        color:white;
+    }
+    p{
+        color:blanchedalmond;
+        font-family:monospace;
+        font-size:16px;
+        text-align:justify;
+    }
+    .greet{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: whitesmoke;
+    }
+    #social{
+        font-family:monospace;
+        font-stretch: normal;
+        color:silver;
+    }
+    #anchored{
+        color:rgb(181, 163, 44);
+        text-decoration: none;
+    }
+    #transperancy{
+        background: linear-gradient(rgba(252, 252, 252, 0.075),rgba(255, 255, 255, 0.062));
+        border-radius: 5px;
+        padding:5px;
+    }
