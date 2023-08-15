@@ -48,6 +48,15 @@
     }
     #transparent-box{
         background: linear-gradient(rgba(252, 252, 252, 0.075),rgba(255, 255, 255, 0.062));
-        border-radius: 5px;
-        padding:5px;
+        border-radius: 20px;
+        padding:50px;
+    }
+    
+    #transparent-box:hover{
+        animation-name:waves;
+        text-shadow: 1px;
+        box-shadow: 1px;
+        color:white;
+        background: linear-gradient(180deg,#eaeaea65,#6d6a6a34,grey);
+        border-radius: 1000px;
     }
